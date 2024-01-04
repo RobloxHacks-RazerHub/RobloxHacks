@@ -53,7 +53,7 @@ local Button = MainTab:CreateButton({
 
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
-   Range = {0, 50000},
+   Range = {0, 500},
    Increment = 1,
    Suffix = "Speed",
    CurrentValue = 16,
@@ -74,7 +74,7 @@ local Button = HacksTab:CreateButton({
 
 local Slider = HacksTab:CreateSlider({
    Name = "LocalJumpower",
-   Range = {0, 50000},
+   Range = {0, 500},
    Increment = 1,
    Suffix = "Jump",
    CurrentValue = 9,
